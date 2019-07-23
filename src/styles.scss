@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: #fafafa;
+    font-family: 'Play';
+}
+
+.jumbotron {
+    background: #A3CFCD;
+    h4 {
+        font-size: 2rem;
+        color: #fafafa;
+    }
+    .fa-heart {
+        color: #ED5E93;
+    }
+}
+
+.form-control {
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    background: none;
+    border-bottom: 1.1px solid #333;
+    border-radius: 0;
+    color: #333;
+    &:focus {
+        box-shadow: none;
+        background: none;
+    }
+    &::placeholder {
+        color: #707070;
+    }
+}
+
+.input-group-addon {
+    background: none;
+    border: 0;
+    color: #A3CFCD;
+}
+
+.hover-cursor {
+    cursor: pointer;
+}
+
+.fa-circle-thin {
+    color: #A3CFCD;
+}
+
+.list-group-item {
+    word-break: break-all;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 10px !important;
+    background: #FFF;
+    box-shadow: 0px 0px 10px rgba(221, 223, 226, 0.09);
+    color: #707070;
+    font-size: 1.2rem;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
+.text-danger {
+    color: #ED5E93;
+}
